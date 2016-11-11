@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/index2.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/open-account.css">
+    <link rel='icon' href='view/images/index/pci.ico.jpg' type=‘image/x-ico’ />
+</head>
+
+<body>
+    <!-- nav  start -->
+    <div class="nav">
+    </div>
+    <!-- nav end -->
+    <!-- container start -->
+    <div class="container">
+    </div>
+    <!-- container end -->
+    <!-- footer start -->
+    <div class="footer">
+    </div>
+    <!-- footer end -->
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./bower_components/seajs/dist/sea.js"></script>
+    <script src="./bower_components/underscore/underscore.js"></script>
+    <script src="js/jquery.sliphover.js"></script>
+    <script>
+    seajs.config({
+        base: './'
+    });
+    seajs.use('js/open-account.js', function(a) {
+        a.initPage()
+    });
+    </script>
+</body>
+
+</html>
