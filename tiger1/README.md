@@ -1,2 +1,2 @@
 ## tiger证券
-[demo](https://github.com/hhhx123/myproject/new/master/tiger1/index.html)
+[demo](https://hhhx123.github.io/myproject/tiger1/index.html)
